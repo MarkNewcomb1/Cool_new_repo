@@ -1,3 +1,28 @@
 h1{
 text-transform: uppercase; font-family: serif
+text-decoration: underline;
+}
+
+h1: before, h1:after {
+content: '&#9830', '♦', '&diams';   
+
+}
+
+.quantity{
+ width: 10%, display: inline-block;
+text-align: left;
+}
+
+ul{
+list-style-type: none;
+padding-left: 0px;
+font-style: italic;
+}
+
+.servings{
+font-weight: bold; 
+}
+
+p.instructions+p.servings{
+border-top: 2px solid black;
 }
