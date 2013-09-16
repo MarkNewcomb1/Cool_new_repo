@@ -1,10 +1,11 @@
 h1{
-text-transform: uppercase; font-family: serif
-text-decoration: underline;
+text-transform: uppercase;
+font-family: serif;
+text-decoration:underline;
 }
 
-h1: before, h1:after {
-content: '&#9830', '♦', '&diams';   
+h1:before, h1:after {
+content: '♦';   
 
 }
 
@@ -23,6 +24,6 @@ font-style: italic;
 font-weight: bold; 
 }
 
-p.instructions+p.servings{
-border-top: 2px solid black;
+.servings{
+border-bottom: 2px solid black;
 }
