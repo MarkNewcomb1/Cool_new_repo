@@ -1,0 +1,33 @@
+*{
+ text-align: center;
+  background:#EFF0F1;  
+       
+}
+
+span{
+ text-decoration:underline;   
+}
+
+h1{
+font-size: 70px;
+color:#BCC9D7;
+text-shadow:-1px -1px gray;   
+}
+
+#box{
+    border: 20px solid white;
+    z-index: 100;
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    background: white;
+    font-family:inherit;
+    font-style:italic;
+    font-size: 1.2em;
+    color:grey;
+}
+body .bottom{
+  font-family:"Helvetica Neue", "Helvetica";
+  font-size:.8em;
+  color: #a6a6a6;
+}
