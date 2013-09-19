@@ -6,7 +6,7 @@ height: 100%;
 
 body{
  text-align: center;
-  background:#EFF0F1; 
+  background:#eaeaea url('http://todomvc.com/vanilla-examples/vanillajs/bower_components/todomvc-common/bg.png'); 
     width: 100%;
     height: 100%;
        
@@ -41,7 +41,7 @@ line-height: 1.4em;
     font-size: 1.8em;
     text-align:left;
     color:black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     
 }
 .check {
@@ -51,7 +51,9 @@ line-height: 1.4em;
     width:10%;
     text-align:center;
     background-color:white;
-    background-image:url ('http://www.i2symbol.com/images/symbols/check/check_mark_u2713_icon_256x256.png');
+    background-image:url('http://www.i2symbol.com/images/symbols/check/check_mark_u2713_icon_256x256.png');
+    background-size:40px,40px;
+    background-repeat:no-repeat;
 }
 .todoText{
     display: block;
