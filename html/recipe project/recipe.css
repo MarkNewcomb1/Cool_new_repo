@@ -1,17 +1,29 @@
+body{
+background-image:url("http://1.bp.blogspot.com/-izmU0XU0ufI/ULtKG9WH-yI/AAAAAAAADcg/1W-5gCNf0L8/s1600/paper_background.jpg");
+/*background:#f7f7f7;*/
+color:#3d3d3d;
+}
+
 h1{
 text-transform: uppercase;
-font-family: serif;
-text-decoration:underline;
+font-family: Georgia, serif;
+border-bottom: 2px solid #3d3d3d;
 }
 
 h1:before, h1:after {
-content: '♦';   
-
+content: ' ♦ ';   
+text-shadow: 1px -1px 0px rgba(0,0,0,.7);
 }
 
 .quantity{
- width: 10%, display: inline-block;
+display: block;
 text-align: left;
+float:left;
+width:5em;
+}
+
+.ingredient{
+display:block;    
 }
 
 ul{
@@ -22,8 +34,11 @@ font-style: italic;
 
 .servings{
 font-weight: bold; 
+font-style:oblique;
+font-size:1.1em;
 }
 
-.servings{
-border-bottom: 2px solid black;
+.instructions{
+text-indent:1.5em;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
 }
